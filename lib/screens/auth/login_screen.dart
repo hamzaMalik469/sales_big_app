@@ -60,7 +60,7 @@ class _LoginViewState extends State<LoginView> {
       },
       builder: (context, state) {
         return Scaffold(
-          body: SafeArea(
+          body: SafeArea(  
             child: SingleChildScrollView(
               physics: const BouncingScrollPhysics(),
               child: Padding(
@@ -117,6 +117,7 @@ class _LoginViewState extends State<LoginView> {
   Widget _buildHeader() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
+
       children: [
         // Logo
         Container(
@@ -147,7 +148,7 @@ class _LoginViewState extends State<LoginView> {
 
         // Welcome Text
         Text(
-              'Welcome Back! 👋',
+              'Welcome Back',
               style: TextStyle(
                 fontSize: 28.sp,
                 fontWeight: FontWeight.w700,

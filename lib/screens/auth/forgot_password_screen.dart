@@ -121,7 +121,7 @@ class _ForgotPasswordViewState extends State<ForgotPasswordView> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-              'Forgot Password? 🔐',
+              'Forgot Password?',
               style: TextStyle(
                 fontSize: 26.sp,
                 fontWeight: FontWeight.w700,

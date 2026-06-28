@@ -98,12 +98,12 @@ class DashboardHeader extends StatelessWidget {
             ),
           ),
 
-          // Notification Bell
-          _buildIconButton(
-            icon: Iconsax.notification,
-            badgeCount: notificationCount,
-            onTap: onNotificationTap,
-          ),
+          // // Notification Bell
+          // _buildIconButton(
+          //   icon: Iconsax.notification,
+          //   badgeCount: notificationCount,
+          //   onTap: onNotificationTap,
+          // ),
         ],
       ),
     );
